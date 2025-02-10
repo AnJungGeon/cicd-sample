@@ -18,8 +18,8 @@ jobs:
         uses: cloudtype-github-actions/deploy@v1
         with:
           token: ${{ secrets.CLOUDTYPE_TOKEN }}
-          project:  AnJungGeon/cicd-sample
-          stage: master
+          project:  cicd-sample/m6yfuwvt8d37f4c6
+          stage: main/m6yfuwwy7b5b7de3
           yaml: |
             name: cicd-sample
             app: java@17
